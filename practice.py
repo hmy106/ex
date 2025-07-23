@@ -2,7 +2,7 @@ import serial
 import time
 import csv
 
-port = '/dev/ttyACM0'  # 아두이노 연결 포트 (환경에 맞게 바꿔줘)
+port = '/dev/ttyUSB0'  # 아두이노 연결 포트 (환경에 맞게 바꿔줘)
 baudrate = 9600
 
 try:
